@@ -1,0 +1,17 @@
+{
+  "name": "jsontoexcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jtexcel": "node convertJsonToExcel.js",
+    "exceltojson": "node excelToJson.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
